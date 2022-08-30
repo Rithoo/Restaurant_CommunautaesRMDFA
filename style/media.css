@@ -1,0 +1,138 @@
+
+
+.title-media{
+    margin: 110px auto 0;
+    width: 75%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: .5rem;
+    font-weight: normal;
+    border-bottom: 1px solid #333;
+}
+
+
+.grid-container{
+    margin: 40px auto;
+    display: grid;
+    max-width: 1300px;
+    width: 80%;
+    grid-template-columns: repeat(auto-fill, 290px);
+    grid-auto-rows: 290px;
+    justify-content: center;
+    gap: 2%;
+    background-color: #fff;
+}
+
+.grille{
+    background: wheat;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px #e0dfdfd9;
+    
+}
+
+.grille img{
+    border: 2px solid #fcf8f8d7;
+    width: 290px;
+    height: 290px;
+    box-shadow: 2px 2px 5px #e0dfdfd9;
+    border-radius: 10px;
+}
+
+.grille div img{
+    object-fit: cover;
+}
+
+.grille:hover{
+    cursor: pointer;
+    transform: rotate3d(.2rem);
+    transform: scale(1.09);
+}
+
+.pied_page-foot{
+    margin-top: 60vh;
+}
+
+/* responsive Media */
+@media (max-width:992px){
+    .title-media{
+        margin: 110px auto 0;
+        width: 75%;
+        text-align: center;
+        font-size: 1.5em;
+        padding: .5rem;
+        font-weight: normal;
+        border-bottom: 1px solid #333;
+    }
+    
+    
+    .grid-container{
+        margin: 40px auto;
+        display: grid;
+        max-width: 1300px;
+        width: 80%;
+        grid-template-columns: repeat(auto-fill, 280px);
+        grid-auto-rows: 280px;
+        justify-content: center;
+        column-gap: 3%;
+        row-gap: 1.5%;
+
+        background-color: #fff;
+    }
+    
+    .grille img{
+        border: 2px solid #fcf8f8d7;
+        width: 280px;
+        height: 280px;
+        box-shadow: 2px 2px 5px #e0dfdfd9;
+        border-radius: 10px;
+        
+    }
+    
+    
+    .pied_page-foot{
+        margin-top: 320vh;
+    }
+}
+
+@media (max-width:1350px){
+    .pied_page-foot{
+        margin-top: 80vh;
+    }
+}
+
+@media (max-width:758px){
+    .title-media{
+        font-size: medium;
+  
+    }
+    
+    
+    .grid-container{
+        margin: 40px auto;
+        display: grid;
+        max-width: 1300px;
+        width: 80%;
+        grid-template-columns: repeat(auto-fill, 320px);
+        grid-auto-rows: 320px;
+        justify-content: center;
+        column-gap: 3%;
+        row-gap: .5%;
+
+        background-color: #fff;
+    }
+    
+    .grille img{
+        border: 2px solid #fcf8f8d7;
+        width: 320px;
+        height: 320px;
+        box-shadow: 2px 2px 5px #e0dfdfd9;
+        border-radius: 10px;
+        
+    }
+    
+    
+    .pied_page-foot{
+        margin-top: 170vh;
+    }
+}
+
